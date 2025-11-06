@@ -9,12 +9,19 @@
     "start": "NODE_ENV=production bun src/index.ts"
   },
   "dependencies": {
+    "@effect-atom/atom-react": "^0.4.0",
+    "@effect/platform": "^0.93.0",
+    "@effect/platform-browser": "^0.73.0",
+    "@effect/platform-bun": "^0.83.0",
+    "@effect/rpc": "^0.72.1",
+    "effect": "^3.19.2",
     "react": "^19",
     "react-dom": "^19"
   },
   "devDependencies": {
+    "@effect/language-service": "^0.55.2",
+    "@types/bun": "latest",
     "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@types/bun": "latest"
+    "@types/react-dom": "^19"
   }
 }
